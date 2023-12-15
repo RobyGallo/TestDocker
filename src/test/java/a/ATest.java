@@ -7,7 +7,7 @@ class ATest {
 	@Test
 	void shouldNotValidateWhenFirstNameEmpty() {
 		String a = "roby";
-		assertThat(a.isEqualTo("roby"));
+		assertThat(a.equals("roby"));
 	}
 
 }
